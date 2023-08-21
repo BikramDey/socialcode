@@ -1,0 +1,44 @@
+#layout-header{
+
+    width: 100%;
+    height: auto;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        // background: #2196f3;
+        // background: #00B900;
+        background: #7e00b9;
+        color: white;
+        box-shadow: 1px 1px 1px 1px lightgrey;
+
+        .mini-logo{
+            margin: 0.65rem;
+            a{
+                font-size: 1.4rem;
+                font-weight: 900;
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .auth-links{
+            ul{
+                margin: 1rem;
+                display: flex;
+
+                li{
+                    margin-left: 1.5rem;
+                    list-style: none;
+
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
